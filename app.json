@@ -1,41 +1,41 @@
 {
-  "name": "Auto-Delete-File-Sharing-Bot",
+  "name": "TG Auto Deletw File Sharing Bot",
   "description": "file sharing bot store posts and it can access by special links",
   "keywords": [
     "telegram",
     "file",
     "sharing"
   ],
-  "repository": "",
+  "repository": "https://github.com/Baji-kun/File-Sharing-Auto-Delete",
   "logo": "https://ibb.co/FgPVtzw",
   "env": {
     "TG_BOT_TOKEN": {
       "description": "Your Bot token, Get it from @Botfather",
-      "value": "6005947500:AAHloPfbZLLgDobGyMwLn1DLbn2WptOJIgo"
+      "value": ""
     },
     "OWNER_ID": {
       "description": "An integer of consisting of your owner ID",
-      "value": "5957500906"
+      "value": ""
     },
     "APP_ID":{
       "description": "your app id, take it from my.telegram.org",
-      "value": "21983955"
+      "value": ""
     },
     "DATABASE_URL": {
       "description": "Paste your mongo db url",
-      "value": "mongodb+srv://luffyx7819:R0xYGEYRui9e2ScP@cluster1.lyqtfz7.mongodb.net/?retryWrites=true&w=majority"
+      "value": "url"
     },
     "DATABASE_NAME":{
       "description": "Enter your DATABASE_NAME ",
-      "value": "filesharing"
+      "value": "filesharebot"
     },
     "API_HASH":{
       "description": "your api hash, take it from my.telegram.org",
-      "value": "edc3c906b06c2dd3dc6ee4c2573fb3f1"
+      "value": ""
     },
     "CHANNEL_ID":{
       "description": "make a channel (database channel), then make the bot as admin in channel, and it's id",
-      "value": "-1001946810914"
+      "value": "-100"
     },
     "FORCE_SUB_CHANNEL":{
       "description": "id of the channel or group, if you want enable force sub feature else put 0",
@@ -47,15 +47,15 @@
     },
     "START_MESSAGE": {
       "description": "Optional: start message of bot, use HTML parsemode format",
-      "value": "<b>{first}</b>\n\nI can provide files for @Team_Netflix & @Anime_Cruise_Netflix\nchannel Members!!\n\nᴊᴜꜱᴛ ᴅᴏɴ'ᴛ ᴏᴠᴇʀʟᴏᴀᴅ ᴍᴇ <a href=https://graph.org/file/6ef6eb1f0aed4920adaf2.jpg>🫣.</a></b>"
+      "value": "Hello {first}\n\nI can store private files in Specified Channel and other users can access it from special link"
     },
     "FORCE_SUB_MESSAGE": {
       "description": "Optional: Force Sub message of bot, use HTML parsemode format",
-      "value": "Hello {first}!\nTo access these files you have to join our channel first.\nPlease subscribe to our channels through the buttons below and then tap on try again to get your files.\nThank You ❤️"
+      "value": "Hello {first}\n\n<b></b>"
     },
     "ADMINS": {
       "description": "A space separated list of user_ids of Admins, they can only create links",
-      "value": "7195698267 8283983963 7101098179",
+      "value": "",
       "required": false
     },
     "PROTECT_CONTENT": {
@@ -70,7 +70,7 @@
     }
   ],
   "formation": {
-    "web": {
+    "worker": {
       "quantity": 1,
       "size": "eco"
     }
