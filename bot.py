@@ -1,7 +1,7 @@
 #(©)Itz_Zeno
 
 from aiohttp import web
-from plugins import web_server
+from Plugins import web_server
 
 import pyromod.listen
 from pyrogram import Client
@@ -24,7 +24,7 @@ class Bot(Client):
             api_hash=API_HASH,
             api_id=APP_ID,
             plugins={
-                "root": "plugins"
+                "root": "Plugins"
             },
             workers=TG_BOT_WORKERS,
             bot_token=TG_BOT_TOKEN
