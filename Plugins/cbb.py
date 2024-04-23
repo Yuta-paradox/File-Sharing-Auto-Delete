@@ -12,7 +12,7 @@ async def cb_handler(client: Bot, query: CallbackQuery):
     data = query.data
     if data == "about":
         await query.message.edit_text(
-            text = f"<b>╔═════════════════\n├⋗ ᴄʀᴇᴀᴛᴏʀ : <a href='tg://user?id={6383801114}'>ᴢᴇɴᴏ ㊍</a>\n├⋗ ʟᴀɴɢᴜᴀɢᴇ : <code>Python3</code>\n├⋗ ʟɪʙʀᴀʀʏ : <a href='https://docs.pyrogram.org/'>Pyrogram asyncio {__version__}</a>\n├⋗ ᴍᴏᴠɪᴇ ᴄʜᴀɴɴᴇʟ : <a href=https://t.me/Movie_Decade>ᴍᴏᴠɪᴇ ᴅᴇᴄᴀᴅᴇ</a>\n├⋗ ᴀɴɪᴍᴇ ᴄʜᴀɴɴᴇʟ : <a href=https://t.me/Anime_Wide>ᴀɴɪᴍᴇ ᴡɪᴅᴇ</a>\n├⋗ Request Group : <a href=https://t.me/Requests_Groupp>Req Grp</a>\n╚═════════════════</b>",
+            text = f"<b>╔═════════════════\n├⋗ My God : <a href='tg://user?id={6383801114}'>Yuta ㊍</a>\n├⋗ ʟᴀɴɢᴜᴀɢᴇ : <code>Python3</code>\n├⋗ ʟɪʙʀᴀʀʏ : <a href='https://docs.pyrogram.org/'>Pyrogram asyncio {__version__}</a>\n├⋗ Anime Channel : <a href=https://t.me/Animes_Paradox>Anime Paradox</a>\n├⋗ Ongoing Channel : <a href=https://t.me/ongoing_Paradox>Ongoing channel</a>\n├⋗ Anime Chat Group : <a href=https://t.me/Paradox_anime_gang>Anime chat Grp</a>\n╚════════════════════</b>",
             disable_web_page_preview = True,
             reply_markup = InlineKeyboardMarkup(
                 [
