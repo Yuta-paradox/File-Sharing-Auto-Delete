@@ -46,7 +46,7 @@
 <summary>Deploy To Heroku</summary>
 <p>
 <br>
-<a href="https://heroku.com/deploy?template=https://github.com/Baji-kun/File-Sharing-Auto-Delete">
+<a href="https://heroku.com/deploy?template=https://github.com/Roshan78m/File-Sharing-Auto-Delete">
   <img src="https://www.herokucdn.com/deploy/button.svg" alt="Deploy">
 </a>
 </p>
