@@ -39,7 +39,7 @@ DB_NAME = os.environ.get("DATABASE_NAME", "filesharebot")
 FORCE_SUB_CHANNEL = int(os.environ.get("FORCE_SUB_CHANNEL", "-1001994477982"))
 FORCE_SUB_CHANNEL2 = int(os.environ.get("FORCE_SUB_CHANNEL2", "-1001909230994"))
 
-TG_BOT_WORKERS = int(os.environ.get("TG_BOT_WORKERS", "50"))
+TG_BOT_WORKERS = int(os.environ.get("TG_BOT_WORKERS", "10"))
 
 #start message
 START_MSG = os.environ.get("START_MESSAGE", "<b>{first}\n\n ɪ ᴀᴍ ғɪʟᴇ sᴛᴏʀᴇ ʙᴏᴛ, ɪ ᴄᴀɴ sᴛᴏʀᴇ ᴘʀɪᴠᴀᴛᴇ ғɪʟᴇs ɪɴ sᴘᴇᴄɪғɪᴇᴅ ᴄʜᴀɴɴᴇʟ ᴀɴᴅ ᴏᴛʜᴇʀ ᴜsᴇʀs ᴄᴀɴ ᴀᴄᴄᴇss ɪᴛ ғʀᴏᴍ sᴘᴇᴄɪᴀʟ ʟɪɴᴋ</b>")
