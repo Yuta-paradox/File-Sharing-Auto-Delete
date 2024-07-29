@@ -29,7 +29,7 @@ OWNER = os.environ.get("OWNER", "Yuta")
 OWNER_ID = int(os.environ.get("OWNER_ID", "6811318860"))
 
 #Port
-PORT = os.environ.get("PORT", "8080")
+PORT = os.environ.get("PORT", "8030")
 
 #Database
 DB_URI = os.environ.get("DATABASE_URL", "mongodb+srv://rm8826453:yxn7ANeE43CKNScl@cluster0.dx2drch.mongodb.net/?retryWrites=true&w=majority")
@@ -39,7 +39,7 @@ DB_NAME = os.environ.get("DATABASE_NAME", "filesharebot")
 FORCE_SUB_CHANNEL = int(os.environ.get("FORCE_SUB_CHANNEL", "-1001994477982"))
 FORCE_SUB_CHANNEL2 = int(os.environ.get("FORCE_SUB_CHANNEL2", "-1001909230994"))
 
-TG_BOT_WORKERS = int(os.environ.get("TG_BOT_WORKERS", "50"))
+TG_BOT_WORKERS = int(os.environ.get("TG_BOT_WORKERS", "4"))
 
 #start message
 START_MSG = os.environ.get("START_MESSAGE", "<b>{first}\n\n ɪ ᴀᴍ ғɪʟᴇ sᴛᴏʀᴇ ʙᴏᴛ, ɪ ᴄᴀɴ sᴛᴏʀᴇ ᴘʀɪᴠᴀᴛᴇ ғɪʟᴇs ɪɴ sᴘᴇᴄɪғɪᴇᴅ ᴄʜᴀɴɴᴇʟ ᴀɴᴅ ᴏᴛʜᴇʀ ᴜsᴇʀs ᴄᴀɴ ᴀᴄᴄᴇss ɪᴛ ғʀᴏᴍ sᴘᴇᴄɪᴀʟ ʟɪɴᴋ</b>")
@@ -66,7 +66,7 @@ BOT_STATS_TEXT = "<b>BOT UPTIME</b>\n{uptime}"
 USER_REPLY_TEXT = "Don't send me messages directly I'm only work for my god @spy_radios !!"
 
 ADMINS.append(OWNER_ID)
-ADMINS.append(5191566338)
+ADMINS.append(6193451722)
 
 LOG_FILE_NAME = "filesharingbot.txt"
 
